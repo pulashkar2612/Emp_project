@@ -1,0 +1,29 @@
+[
+    {
+        "empName": "Prashant Pulashkar",
+        "empId": "B216056",
+        "password": "Prashant@123",
+        "email": "prashant1@gmail.com",
+        "contact": "7978732675",
+        "address": "Repura",
+        "joiningDate": "2020-11-23"
+    },
+    {
+        "empName": "Rachit Raj",
+        "empId": "B218045",
+        "password": "Rachit@123",
+        "email": "rachit3@gmail.com",
+        "contact": "7978724578",
+        "address": "Lalganj",
+        "joiningDate": "2020-07-22"
+    },
+    {
+        "empName": "Monisha",
+        "empId": "B217022",
+        "password": "Monisha@123",
+        "email": "monisha2@gmail.com",
+        "contact": "7488205972",
+        "address": "Bokaro",
+        "joiningDate": "2021-06-23"
+    }
+]

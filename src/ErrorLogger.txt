@@ -1,0 +1,355 @@
+Sat May 07 2022 - ValidationError: Employee validation failed: skills: Cast to string failed for value "[ 'React', 'Redux', 'Node', 'Express', 'MONGODB' ]" (type Array) at path "skills"
+    at model.Document.invalidate (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:4911:15)
+    at Array.<anonymous> (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:3365:17)
+    at _start (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:3395:3)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sat May 07 2022 - ValidationError: Employee validation failed: skills: Path `skills` is required.
+    at model.Document.invalidate (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sat May 07 2022 - ValidationError: Employee validation failed: joiningDate: Cast to date failed for value "23-07-2021" (type string) at path "joiningDate"
+    at model.Document.invalidate (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:4911:15)
+    at Array.<anonymous> (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:3365:17)
+    at _start (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongoose\lib\model.js:3395:3)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:13:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:13:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:13:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:13:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:13:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:13:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:14:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:14:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid email
+    at Object.validator.validateemail (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:14:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:31:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Joining date cannot be future date
+    at Object.validator.validateJoiningDate (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:5:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:32:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - ReferenceError: contact is not defined
+    at Object.validator.validatecontact (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:21:5)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:32:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - ReferenceError: contact is not defined
+    at Object.validator.validatecontact (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:21:5)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:32:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: Invalid contact
+    at Object.validator.validatecontact (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:22:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:32:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - Error: User already exists
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:36:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:27
+Sat May 07 2022 - Error: Invalid password
+    at Object.validator.validatepassword (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\utilities\validator.js:30:19)
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:32:15)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:41
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\express\lib\router\index.js:346:12)
+Sat May 07 2022 - MongoError: E11000 duplicate key error collection: EmployeeDB.Employee index: empId_1 dup key: { empId: "B216062" }
+    at Function.create (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+Sat May 07 2022 - Error: User already exists
+    at Object.service.createAccount (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:37:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:46:27
+Sat May 07 2022 - MongoError: E11000 duplicate key error collection: EmployeeDB.Employee index: empId_1 dup key: { empId: "B216061" }
+    at Function.create (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailById (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:27:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:44:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailByName (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:16:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:33:26
+Sat May 07 2022 - Error: User not found
+    at Object.service.getUserDetailById (C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\service\account.js:27:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Prashant\Desktop\ExpressWalletUpdated\ExpressWalletUpdated\src\routes\routing.js:44:26
